@@ -434,6 +434,7 @@ function __scheme_get_definition \
     #Color Palette
     set -l foreground dadae8
     set -l selection 3e4058
+    set -l comment bac2de
     set -l teal bee4ed
     set -l flamingo f2cecf
     set -l magenta c6aae8
@@ -455,6 +456,7 @@ function __scheme_get_definition \
     set -g scheme_color_end $peach
     set -g scheme_color_error $red
     set -g scheme_color_gray $gray
+    set -g scheme_color_comment $comment
     set -g scheme_color_selection --background=$selection
     set -g scheme_color_search_match --background=$selection
     set -g scheme_color_operator $pink
